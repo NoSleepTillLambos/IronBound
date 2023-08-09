@@ -21,7 +21,7 @@
   <h3 align="center">ChitChat</h3>
 
   <p align="center">
-    A messaging app created using Kotlin, Android Studio and Google Firebase<br>
+    Health and fitness app developed using Xcode , Core data and Swift UI - Alongside HealthKit and a built in xcode pedometer for step and calories tracking<br>
       <a href="https://github.com/username/projectname"><strong>Explore the docs »</strong></a>
    <br />
    <br />
