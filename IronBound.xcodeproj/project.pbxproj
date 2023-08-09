@@ -14,6 +14,8 @@
 		318DABC22A7BA61D00D609C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318DABC12A7BA61D00D609C7 /* Assets.xcassets */; };
 		318DABC62A7BA61D00D609C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318DABC52A7BA61D00D609C7 /* Preview Assets.xcassets */; };
 		318DABCD2A7BA9D500D609C7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318DABCC2A7BA9D500D609C7 /* SplashScreen.swift */; };
+		31EFB5632A83B1C00055885E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB5622A83B1C00055885E /* File.swift */; };
+		31EFB5682A83B4240055885E /* onboardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB5672A83B4240055885E /* onboardingData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		318DABC32A7BA61D00D609C7 /* IronBound.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IronBound.entitlements; sourceTree = "<group>"; };
 		318DABC52A7BA61D00D609C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		318DABCC2A7BA9D500D609C7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		31EFB5622A83B1C00055885E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		31EFB5672A83B4240055885E /* onboardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 		318DABBC2A7BA61500D609C7 /* IronBound */ = {
 			isa = PBXGroup;
 			children = (
+				31EFB5642A83B3900055885E /* Data */,
+				31EFB5612A83B19B0055885E /* Models */,
 				31733A652A7BCFFC00318D0E /* Screens */,
 				31733A632A7BB42D00318D0E /* smallLogo-4.png */,
 				31733A622A7BB32B00318D0E /* Info.plist */,
@@ -86,6 +92,22 @@
 				318DABC52A7BA61D00D609C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31EFB5612A83B19B0055885E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31EFB5622A83B1C00055885E /* File.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31EFB5642A83B3900055885E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				31EFB5672A83B4240055885E /* onboardingData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EFB5682A83B4240055885E /* onboardingData.swift in Sources */,
+				31EFB5632A83B1C00055885E /* File.swift in Sources */,
 				318DABCD2A7BA9D500D609C7 /* SplashScreen.swift in Sources */,
 				31733A6B2A7BDCFA00318D0E /* workoutsScreen.swift in Sources */,
 				318DABC02A7BA61500D609C7 /* ContentView.swift in Sources */,
