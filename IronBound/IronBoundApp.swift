@@ -14,7 +14,7 @@ struct OnBoardingViewSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             if isOnboarding {
-              OnBoardingView()
+                OnBoardingView()
             } else {
               ContentView()
             }

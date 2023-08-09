@@ -10,11 +10,11 @@ struct OnBoardingView: View {
     var body: some View {
       TabView {
         ForEach(gym[0...2]) { item in
-          CardView(gym: item)
+            CardView(gym: item)
         } //: LOOP
       } 
       .tabViewStyle(PageTabViewStyle())
-      .padding(.vertical, 20)
+      .ignoresSafeArea()
     }
 
 }
