@@ -187,9 +187,9 @@ when i got it working!
 
 ### Mockups
 
-![image9][image9]
+![image11][image11]
 <br>
-![image10][image10]
+![image12][image12]
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
