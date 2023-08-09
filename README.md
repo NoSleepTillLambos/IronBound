@@ -142,7 +142,12 @@ Users are able to type and send messages live, allowign for real time chat and q
 <!-- Briefly explain your concept ideation process -->
 ## Concept Process
 
-The concept was obviously largely around whatsapp, that formed a large part of the ideation for me and helped me gauge where i wanted certain features to be and where i wanted everythign to be lined up
+Developing the wireframes and figuring out how i wanted the user to navigate the app, authentication, dashboard views and detailed views
+with the respected data sets
+![image10][image10]
+![image8][image8]
+![image9][image9]
+
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
@@ -242,9 +247,9 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 [image5]: /path/to/image.png
 [image6]: /path/to/image.png
 [image7]: /path/to/image.png
-[image8]: /path/to/image.png
-[image9]: app/src/main/res/drawable/807.png
-[image10]: app/src/main/res/drawable/P6YSJM1.png
+[image8]: IronBound/Assets.xcassets/IMG_8510.jpg
+[image9]: IronBound/Assets.xcassets/IMG_8509.jpg
+[image10]: IronBound/Assets.xcassets/IMG_8508.jpg
 
 
 <!-- Refer to https://shields.io/ for more information and options about the shield links at the top of the ReadMe file -->
