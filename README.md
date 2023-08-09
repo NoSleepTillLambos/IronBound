@@ -152,14 +152,12 @@ The `Development Process` is the technical implementations and functionality don
 ### Implementation Process
 <!-- stipulate all of the functionality you included in the project -->
 
-* Made use of Hilt for dependency injection for Firebase and database calls.
-* Firebase for backend control and storage of data and images
-
+* Wireframing and concept ideastion
+* Developing the user flow, Implementing UI such as onboarding screens, splash screens and views for the app
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
-* The biggest highlight was getting the chat features working.
-* Getting the chat working meant i had the main features under control and could go from there, it was the core of the app so it made me the most <br/>
+* A highlight of mine was being able to access data from the system and visualieze it using graphs and models<br/>
 when i got it working!
 
 #### Challenges
