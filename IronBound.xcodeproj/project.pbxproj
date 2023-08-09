@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31733A642A7BB42D00318D0E /* smallLogo-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 31733A632A7BB42D00318D0E /* smallLogo-4.png */; };
+		31733A6B2A7BDCFA00318D0E /* workoutsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31733A6A2A7BDCFA00318D0E /* workoutsScreen.swift */; };
 		318DABBE2A7BA61500D609C7 /* IronBoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318DABBD2A7BA61500D609C7 /* IronBoundApp.swift */; };
 		318DABC02A7BA61500D609C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318DABBF2A7BA61500D609C7 /* ContentView.swift */; };
 		318DABC22A7BA61D00D609C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318DABC12A7BA61D00D609C7 /* Assets.xcassets */; };
 		318DABC62A7BA61D00D609C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318DABC52A7BA61D00D609C7 /* Preview Assets.xcassets */; };
+		318DABCD2A7BA9D500D609C7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318DABCC2A7BA9D500D609C7 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31733A622A7BB32B00318D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		31733A632A7BB42D00318D0E /* smallLogo-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smallLogo-4.png"; path = "../../../../Downloads/smallLogo-4.png"; sourceTree = "<group>"; };
+		31733A6A2A7BDCFA00318D0E /* workoutsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutsScreen.swift; sourceTree = "<group>"; };
 		318DABBA2A7BA61500D609C7 /* IronBound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronBound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318DABBD2A7BA61500D609C7 /* IronBoundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronBoundApp.swift; sourceTree = "<group>"; };
 		318DABBF2A7BA61500D609C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		318DABC12A7BA61D00D609C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318DABC32A7BA61D00D609C7 /* IronBound.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IronBound.entitlements; sourceTree = "<group>"; };
 		318DABC52A7BA61D00D609C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		318DABCC2A7BA9D500D609C7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31733A652A7BCFFC00318D0E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				31733A6A2A7BDCFA00318D0E /* workoutsScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		318DABB12A7BA61500D609C7 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +67,12 @@
 		318DABBC2A7BA61500D609C7 /* IronBound */ = {
 			isa = PBXGroup;
 			children = (
+				31733A652A7BCFFC00318D0E /* Screens */,
+				31733A632A7BB42D00318D0E /* smallLogo-4.png */,
+				31733A622A7BB32B00318D0E /* Info.plist */,
 				318DABBD2A7BA61500D609C7 /* IronBoundApp.swift */,
 				318DABBF2A7BA61500D609C7 /* ContentView.swift */,
+				318DABCC2A7BA9D500D609C7 /* SplashScreen.swift */,
 				318DABC12A7BA61D00D609C7 /* Assets.xcassets */,
 				318DABC32A7BA61D00D609C7 /* IronBound.entitlements */,
 				318DABC42A7BA61D00D609C7 /* Preview Content */,
@@ -127,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31733A642A7BB42D00318D0E /* smallLogo-4.png in Resources */,
 				318DABC62A7BA61D00D609C7 /* Preview Assets.xcassets in Resources */,
 				318DABC22A7BA61D00D609C7 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318DABCD2A7BA9D500D609C7 /* SplashScreen.swift in Sources */,
+				31733A6B2A7BDCFA00318D0E /* workoutsScreen.swift in Sources */,
 				318DABC02A7BA61500D609C7 /* ContentView.swift in Sources */,
 				318DABBE2A7BA61500D609C7 /* IronBoundApp.swift in Sources */,
 			);
@@ -267,6 +289,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IronBound/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IronBound/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -303,6 +326,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IronBound/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IronBound/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
