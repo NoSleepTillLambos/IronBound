@@ -15,7 +15,7 @@
 <p align="center">
 
   <a href="https://github.com/username/projectname">
-    <img src="IronBound/Assets.xcassets/AppIcon.imageset/smallLogo-4.png" alt="Logo" width="140" height="140">
+    <img src="IronBound/Assets.xcassets/AppIcon.imageset/smallLogo-4.png" alt="Logo" >
   </a>
   
   <h3 align="center">ChitChat</h3>
