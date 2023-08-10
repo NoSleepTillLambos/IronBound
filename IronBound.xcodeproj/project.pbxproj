@@ -19,6 +19,7 @@
 		31EFB56B2A83B9DF0055885E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB56A2A83B9DF0055885E /* CardView.swift */; };
 		31EFB56D2A83BA2D0055885E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB56C2A83BA2D0055885E /* StartView.swift */; };
 		31EFB56F2A83BA7D0055885E /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB56E2A83BA7D0055885E /* OnBoardingView.swift */; };
+		31EFB5712A84C7AB0055885E /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB5702A84C7AA0055885E /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		31EFB56A2A83B9DF0055885E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		31EFB56C2A83BA2D0055885E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		31EFB56E2A83BA7D0055885E /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		31EFB5702A84C7AA0055885E /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				31733A6A2A7BDCFA00318D0E /* workoutsScreen.swift */,
+				31EFB5702A84C7AA0055885E /* LoginScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				31733A6B2A7BDCFA00318D0E /* workoutsScreen.swift in Sources */,
 				318DABC02A7BA61500D609C7 /* ContentView.swift in Sources */,
 				318DABBE2A7BA61500D609C7 /* IronBoundApp.swift in Sources */,
+				31EFB5712A84C7AB0055885E /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
