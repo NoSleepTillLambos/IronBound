@@ -10,15 +10,15 @@
 <!-- HEADER SECTION -->
 <h5 align="center" style="padding:0;margin:0;">Liam Wedge</h5>
 <h5 align="center" style="padding:0;margin:0;">21100218</h5>
-<h6 align="center">DV 302 | 3RD YEAR</h6>
+<h6 align="center">DV 303 | 3RD YEAR MODULE</h6>
 </br>
 <p align="center">
 
   <a href="https://github.com/username/projectname">
-    <img src="IronBound/Assets.xcassets/AppIcon.imageset/smallLogo-4.png" alt="Logo" width="140" height="140">
+    <img src="IronBound/Assets.xcassets/AppIcon.imageset/smallLogo-4.png" alt="Logo" height="100" widht="100" >
   </a>
   
-  <h3 align="center">ChitChat</h3>
+  <h3 align="center">IRONDBOUND</h3>
 
   <p align="center">
     Health and fitness app developed using Xcode , Core data and Swift UI - Alongside HealthKit and a built in xcode pedometer for step and calories tracking<br>
@@ -187,9 +187,9 @@ when i got it working!
 
 ### Mockups
 
-![image9][image9]
+![image11][image11]
 <br>
-![image10][image10]
+![image12][image12]
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
