@@ -1,56 +1,81 @@
 //
 //  ContentView.swift
 //  IronBound
+//
 
 import SwiftUI
+import HealthKit
 
 struct ContentView: View {
-    @State private var username = ""
-    @State private var password = ""
-    @State private var wrongUsername = 0
-    @State private var wrongPassword = 0
-    @State private var showLoginScreen = false
     
+    private var healthStore: HealthStore?
+    @State private var steps: [Steps] = [Steps]()
     
+    init() {
+        healthStore = HealthStore()
+    }
+    
+    private func updateUIWithStats( statisticsCollection: HKStatisticsCollection) {
+        
+        let startDate = Calendar.current.date(byAdding: .day, value: -7, to: Date())!
+        let endDate = Date()
+        
+        statisticsCollection.enumerateStatistics(from: startDate, to: endDate) {
+            (statistics, stop)
+            in
+            let count = statistics.sumQuantity()?.doubleValue(for: .count())
+            
+            let step = Steps(count: Int(count ?? 0), date: statistics.startDate)
+            steps.append(step)
+        }
+    }
     var body: some View {
-        NavigationView{
+        
+        NavigationView {
             ZStack {
-                Color("BlueDark").ignoresSafeArea()
-                Circle().scale(1.7).foregroundColor(.white.opacity(0.5))
-                Circle()
-                    .scale(1.2)
-                    .foregroundColor(.white)
-                
-                VStack{
-                    Text("Login").font(.largeTitle)
-                        .bold()
-                        .padding()
-                    TextField("Username", text: $username).padding().frame(width: 320, height: 50)
-                        .background(Color.black.opacity(0.06))
-                        .cornerRadius(10)
-                        .border(.red, width: CGFloat(wrongUsername))
-                    SecureField("Password", text: $password).padding().frame(width: 320, height: 50)
-                        .background(Color.black.opacity(0.06))
-                        .cornerRadius(10)
-                        .border(.red, width: CGFloat(wrongPassword))
-                    Button("Login") {
-                        
+                List(steps, id: \.id) {
+                            steps in
+                    VStack(alignment: .leading){
+                                Text("\(steps.count)")
+                                Text(steps.date, style: .date)
+                                    .opacity(0.5)
+                            }
+                        }
+        }
+            Color("C9BFDF")
+            Text("home page").foregroundColor(.white)
+                .font(.system(size:30))
+            TabView {
+                StatisticsPage()
+                    .tabItem() {
+                        Image(systemName: "trophy.circle")
+                        Text("Statstics")
                     }
-                    .foregroundColor(.white)
-                    .frame(width: 300, height: 50)
-                    .background(Color("BlueDark"))
-                    .cornerRadius(10)
+                
+                workoutsScreen()
+                    .tabItem() {
+                        Image(systemName: "dumbbell.fill")
+                        Text("Workouts")
+                    }
                     
-                    NavigationLink(destination: ContentView(), isActive: $showLoginScreen){
-                        
+            }
+            
+        }
+        
+        .onAppear {
+            if let healthStore = healthStore {
+                healthStore.requestAuth {
+                    success in
+                    if success {
+                        healthStore.calculateSteps { statisticsCollection in
+                            if let statisticsCollection = statisticsCollection {
+                                updateUIWithStats(statisticsCollection: statisticsCollection)
+                            }
+                        }
                     }
                 }
             }
-        }.navigationBarHidden(true)
-    }
-    
-    func authUser(username: String, password: String) {
-        
+        }
     }
 }
 

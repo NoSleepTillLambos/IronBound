@@ -2,8 +2,6 @@
 //  File.swift
 //  IronBound
 //
-//  Created by Paige Phelps on 2023/08/09.
-//
 
 import Foundation
 import SwiftUI

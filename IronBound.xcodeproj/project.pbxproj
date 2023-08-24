@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		316C77CC2A8D025F003390E2 /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C77CB2A8D025F003390E2 /* Steps.swift */; };
+		316C77CE2A8DFB72003390E2 /* StepGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C77CD2A8DFB72003390E2 /* StepGraph.swift */; };
 		31733A642A7BB42D00318D0E /* smallLogo-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 31733A632A7BB42D00318D0E /* smallLogo-4.png */; };
 		31733A6B2A7BDCFA00318D0E /* workoutsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31733A6A2A7BDCFA00318D0E /* workoutsScreen.swift */; };
 		318DABBE2A7BA61500D609C7 /* IronBoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318DABBD2A7BA61500D609C7 /* IronBoundApp.swift */; };
@@ -20,9 +22,13 @@
 		31EFB56D2A83BA2D0055885E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB56C2A83BA2D0055885E /* StartView.swift */; };
 		31EFB56F2A83BA7D0055885E /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB56E2A83BA7D0055885E /* OnBoardingView.swift */; };
 		31EFB5712A84C7AB0055885E /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB5702A84C7AA0055885E /* LoginScreen.swift */; };
+		31EFB5732A84D01F0055885E /* HealthStoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB5722A84D01F0055885E /* HealthStoreClass.swift */; };
+		31EFB5752A85016C0055885E /* StatisticsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB5742A85016C0055885E /* StatisticsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		316C77CB2A8D025F003390E2 /* Steps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
+		316C77CD2A8DFB72003390E2 /* StepGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepGraph.swift; sourceTree = "<group>"; };
 		31733A622A7BB32B00318D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		31733A632A7BB42D00318D0E /* smallLogo-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smallLogo-4.png"; path = "../../../../Downloads/smallLogo-4.png"; sourceTree = "<group>"; };
 		31733A6A2A7BDCFA00318D0E /* workoutsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutsScreen.swift; sourceTree = "<group>"; };
@@ -39,6 +45,8 @@
 		31EFB56C2A83BA2D0055885E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		31EFB56E2A83BA7D0055885E /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		31EFB5702A84C7AA0055885E /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		31EFB5722A84D01F0055885E /* HealthStoreClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreClass.swift; sourceTree = "<group>"; };
+		31EFB5742A85016C0055885E /* StatisticsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 			children = (
 				31733A6A2A7BDCFA00318D0E /* workoutsScreen.swift */,
 				31EFB5702A84C7AA0055885E /* LoginScreen.swift */,
+				31EFB5742A85016C0055885E /* StatisticsPage.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -108,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				31EFB5622A83B1C00055885E /* File.swift */,
+				316C77CB2A8D025F003390E2 /* Steps.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -116,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				31EFB5672A83B4240055885E /* onboardingData.swift */,
+				31EFB5722A84D01F0055885E /* HealthStoreClass.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -126,6 +137,7 @@
 				31EFB56A2A83B9DF0055885E /* CardView.swift */,
 				31EFB56C2A83BA2D0055885E /* StartView.swift */,
 				31EFB56E2A83BA7D0055885E /* OnBoardingView.swift */,
+				316C77CD2A8DFB72003390E2 /* StepGraph.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,8 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316C77CC2A8D025F003390E2 /* Steps.swift in Sources */,
 				31EFB56B2A83B9DF0055885E /* CardView.swift in Sources */,
+				316C77CE2A8DFB72003390E2 /* StepGraph.swift in Sources */,
 				31EFB5682A83B4240055885E /* onboardingData.swift in Sources */,
+				31EFB5732A84D01F0055885E /* HealthStoreClass.swift in Sources */,
 				31EFB5632A83B1C00055885E /* File.swift in Sources */,
 				31EFB56F2A83BA7D0055885E /* OnBoardingView.swift in Sources */,
 				31EFB56D2A83BA2D0055885E /* StartView.swift in Sources */,
@@ -211,6 +226,7 @@
 				318DABC02A7BA61500D609C7 /* ContentView.swift in Sources */,
 				318DABBE2A7BA61500D609C7 /* IronBoundApp.swift in Sources */,
 				31EFB5712A84C7AB0055885E /* LoginScreen.swift in Sources */,
+				31EFB5752A85016C0055885E /* StatisticsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,9 +348,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = IronBound/IronBound.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IronBound/Preview Content\"";
+				DEVELOPMENT_TEAM = 58H687N3JZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IronBound/Info.plist;
@@ -369,9 +387,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = IronBound/IronBound.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IronBound/Preview Content\"";
+				DEVELOPMENT_TEAM = 58H687N3JZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IronBound/Info.plist;

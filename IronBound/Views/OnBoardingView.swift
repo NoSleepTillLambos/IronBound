@@ -1,11 +1,8 @@
 import SwiftUI
 
 struct OnBoardingView: View {
-    // MARK: - PROPERTIES
     
     var gym: [Gym] = gymData
-
-    // MARK: - BODY
     
     var body: some View {
       TabView {

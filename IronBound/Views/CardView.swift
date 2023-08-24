@@ -1,14 +1,11 @@
 import SwiftUI
 
 struct CardView: View {
-    // MARK: - PROPERTIES
     
     var gym: Gym
     
     @State private var isAnimating: Bool = false
-    
-    
-    
+  
     var body: some View {
       ZStack {
         VStack(spacing: 20) {
@@ -18,7 +15,9 @@ struct CardView: View {
             .scaledToFit()
             .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 8, x: 6, y: 8)
             .scaleEffect(isAnimating ? 1.0 : 0.6)
-          
+            .rotationEffect(.degrees(self.isAnimating ? 360.0:
+                                        0.0))
+            .animation(.interpolatingSpring(mass: 1.0, stiffness: 100, damping: 5, initialVelocity: 0))
          
           Text(gym.title)
             .foregroundColor(Color.white)

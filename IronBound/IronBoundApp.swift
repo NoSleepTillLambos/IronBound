@@ -2,7 +2,6 @@
 //  IronBoundApp.swift
 //  IronBound
 //
-//  Created by Paige Phelps on 2023/08/03.
 //
 
 import SwiftUI
@@ -17,7 +16,7 @@ struct OnBoardingViewSwiftUIApp: App {
                 OnBoardingView()
             } else {
               ContentView()
-            }
+            } 
         }
     }
 }
