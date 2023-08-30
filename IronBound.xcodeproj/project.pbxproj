@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3114891E2A9F967D00783559 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3114891C2A9F967D00783559 /* FoodModel.xcdatamodeld */; };
+		311489202A9F97EA00783559 /* FoodDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3114891F2A9F97EA00783559 /* FoodDataController.swift */; };
 		316C77CC2A8D025F003390E2 /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C77CB2A8D025F003390E2 /* Steps.swift */; };
 		316C77CE2A8DFB72003390E2 /* StepGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C77CD2A8DFB72003390E2 /* StepGraph.swift */; };
 		31733A642A7BB42D00318D0E /* smallLogo-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 31733A632A7BB42D00318D0E /* smallLogo-4.png */; };
 		31733A6B2A7BDCFA00318D0E /* workoutsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31733A6A2A7BDCFA00318D0E /* workoutsScreen.swift */; };
+		318ABEE32A9F9BBD00386BA5 /* addFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEE22A9F9BBD00386BA5 /* addFoodView.swift */; };
+		318ABEE52A9F9DD000386BA5 /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEE42A9F9DD000386BA5 /* TimeFormatter.swift */; };
+		318ABEE72A9FADDB00386BA5 /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEE62A9FADDB00386BA5 /* EditFoodView.swift */; };
 		318DABBE2A7BA61500D609C7 /* IronBoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318DABBD2A7BA61500D609C7 /* IronBoundApp.swift */; };
 		318DABC02A7BA61500D609C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318DABBF2A7BA61500D609C7 /* ContentView.swift */; };
 		318DABC22A7BA61D00D609C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318DABC12A7BA61D00D609C7 /* Assets.xcassets */; };
@@ -27,11 +32,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3114891D2A9F967D00783559 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
+		3114891F2A9F97EA00783559 /* FoodDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDataController.swift; sourceTree = "<group>"; };
 		316C77CB2A8D025F003390E2 /* Steps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
 		316C77CD2A8DFB72003390E2 /* StepGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepGraph.swift; sourceTree = "<group>"; };
 		31733A622A7BB32B00318D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		31733A632A7BB42D00318D0E /* smallLogo-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smallLogo-4.png"; path = "../../../../Downloads/smallLogo-4.png"; sourceTree = "<group>"; };
 		31733A6A2A7BDCFA00318D0E /* workoutsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutsScreen.swift; sourceTree = "<group>"; };
+		318ABEE22A9F9BBD00386BA5 /* addFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addFoodView.swift; sourceTree = "<group>"; };
+		318ABEE42A9F9DD000386BA5 /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
+		318ABEE62A9FADDB00386BA5 /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
 		318DABBA2A7BA61500D609C7 /* IronBound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronBound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318DABBD2A7BA61500D609C7 /* IronBoundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronBoundApp.swift; sourceTree = "<group>"; };
 		318DABBF2A7BA61500D609C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +111,7 @@
 				318DABC12A7BA61D00D609C7 /* Assets.xcassets */,
 				318DABC32A7BA61D00D609C7 /* IronBound.entitlements */,
 				318DABC42A7BA61D00D609C7 /* Preview Content */,
+				318ABEE42A9F9DD000386BA5 /* TimeFormatter.swift */,
 			);
 			path = IronBound;
 			sourceTree = "<group>";
@@ -127,6 +138,8 @@
 			children = (
 				31EFB5672A83B4240055885E /* onboardingData.swift */,
 				31EFB5722A84D01F0055885E /* HealthStoreClass.swift */,
+				3114891C2A9F967D00783559 /* FoodModel.xcdatamodeld */,
+				3114891F2A9F97EA00783559 /* FoodDataController.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -138,6 +151,8 @@
 				31EFB56C2A83BA2D0055885E /* StartView.swift */,
 				31EFB56E2A83BA7D0055885E /* OnBoardingView.swift */,
 				316C77CD2A8DFB72003390E2 /* StepGraph.swift */,
+				318ABEE22A9F9BBD00386BA5 /* addFoodView.swift */,
+				318ABEE62A9FADDB00386BA5 /* EditFoodView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,13 +229,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				316C77CC2A8D025F003390E2 /* Steps.swift in Sources */,
+				318ABEE52A9F9DD000386BA5 /* TimeFormatter.swift in Sources */,
 				31EFB56B2A83B9DF0055885E /* CardView.swift in Sources */,
 				316C77CE2A8DFB72003390E2 /* StepGraph.swift in Sources */,
 				31EFB5682A83B4240055885E /* onboardingData.swift in Sources */,
 				31EFB5732A84D01F0055885E /* HealthStoreClass.swift in Sources */,
+				318ABEE32A9F9BBD00386BA5 /* addFoodView.swift in Sources */,
+				318ABEE72A9FADDB00386BA5 /* EditFoodView.swift in Sources */,
 				31EFB5632A83B1C00055885E /* File.swift in Sources */,
 				31EFB56F2A83BA7D0055885E /* OnBoardingView.swift in Sources */,
 				31EFB56D2A83BA2D0055885E /* StartView.swift in Sources */,
+				3114891E2A9F967D00783559 /* FoodModel.xcdatamodeld in Sources */,
+				311489202A9F97EA00783559 /* FoodDataController.swift in Sources */,
 				318DABCD2A7BA9D500D609C7 /* SplashScreen.swift in Sources */,
 				31733A6B2A7BDCFA00318D0E /* workoutsScreen.swift in Sources */,
 				318DABC02A7BA61500D609C7 /* ContentView.swift in Sources */,
@@ -442,6 +462,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3114891C2A9F967D00783559 /* FoodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3114891D2A9F967D00783559 /* FoodModel.xcdatamodel */,
+			);
+			currentVersion = 3114891D2A9F967D00783559 /* FoodModel.xcdatamodel */;
+			path = FoodModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 318DABB22A7BA61500D609C7 /* Project object */;
 }
