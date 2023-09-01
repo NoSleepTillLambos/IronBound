@@ -15,7 +15,7 @@ struct workoutsScreen: View {
     @State private var showAddingView = false
     
     var body: some View {
-        
+       
         NavigationView
         {
             
@@ -37,7 +37,7 @@ struct workoutsScreen: View {
                                 }
                                 Spacer()
                                 Text(calculateTimeSince(date: food.date!))
-                                    .foregroundColor(Color("111009"))
+                                    .foregroundColor(Color("BlueDark"))
                             }
                         }
                     }
@@ -45,7 +45,7 @@ struct workoutsScreen: View {
                 }
                 .listStyle(.plain)
             }
-            .navigationTitle("Your calories").foregroundColor(Color("111009"))
+            .navigationTitle("Your calories").foregroundColor(Color.white)
             .toolbar
             {
                 ToolbarItem(placement: .navigationBarTrailing) {

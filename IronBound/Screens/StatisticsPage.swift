@@ -24,7 +24,7 @@ struct StatisticsPage: View {
                     LazyVGrid(columns: items, spacing: 2) {
                         ForEach(Activity.allActivities()) {
                             Activity in
-                            NavigationLink(destination: Text(Activity.name)) {
+                            NavigationLink(destination: HealthDetailView(activity: Activity, repository:repository)) {
                                 VStack {
                                     Text(Activity.image)
                                         .frame(width: 50, height: 50)

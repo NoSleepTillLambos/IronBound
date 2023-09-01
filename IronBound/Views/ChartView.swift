@@ -16,7 +16,7 @@ struct ChartView: View {
     var body: some View {
         GeometryReader { geo in
             HStack(alignment: .bottom) {
-                ForEach(0..<values.count) {
+                ForEach(0..<values.count, id: \.self) {
                     idx in
                     let max = values.max() ?? 0
                     
@@ -25,14 +25,14 @@ struct ChartView: View {
                             .font(.caption)
                             
                         RoundedRectangle(cornerRadius: 5).fill(Color("BlueDark"))
-                            .frame(width: 30, height:  CGFloat(values[idx]) / CGFloat(max) *
+                            .frame(width: 20, height:  CGFloat(values[idx]) / CGFloat(max) *
                                    geo.size.height * 0.6).padding()
                         
                         Text(xAxisLabels[idx])
                             .font(.caption)
                     }
                 }
-            }.frame(maxWidth: .infinity, maxHeight: .infinity)
+            }.frame(maxWidth: 450, maxHeight: .infinity)
                 .background(Color.white.opacity(0.4))
                 
         }

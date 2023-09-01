@@ -23,6 +23,8 @@
 		318ABEF52AA098BD00386BA5 /* HKREPO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEF42AA098BD00386BA5 /* HKREPO.swift */; };
 		318ABEF72AA09EBE00386BA5 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEF62AA09EBE00386BA5 /* DateExtension.swift */; };
 		318ABEF92AA0AC3000386BA5 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEF82AA0AC3000386BA5 /* ChartView.swift */; };
+		318ABEFD2AA20D0200386BA5 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEFC2AA20D0200386BA5 /* ChartModel.swift */; };
+		318ABEFF2AA20F5700386BA5 /* HealthDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEFE2AA20F5700386BA5 /* HealthDetailView.swift */; };
 		318DABBE2A7BA61500D609C7 /* IronBoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318DABBD2A7BA61500D609C7 /* IronBoundApp.swift */; };
 		318DABC02A7BA61500D609C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318DABBF2A7BA61500D609C7 /* ContentView.swift */; };
 		318DABC22A7BA61D00D609C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318DABC12A7BA61D00D609C7 /* Assets.xcassets */; };
@@ -55,6 +57,8 @@
 		318ABEF42AA098BD00386BA5 /* HKREPO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKREPO.swift; sourceTree = "<group>"; };
 		318ABEF62AA09EBE00386BA5 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		318ABEF82AA0AC3000386BA5 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		318ABEFC2AA20D0200386BA5 /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		318ABEFE2AA20F5700386BA5 /* HealthDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDetailView.swift; sourceTree = "<group>"; };
 		318DABBA2A7BA61500D609C7 /* IronBound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronBound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318DABBD2A7BA61500D609C7 /* IronBoundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronBoundApp.swift; sourceTree = "<group>"; };
 		318DABBF2A7BA61500D609C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 		318ABEEF2AA0956000386BA5 /* viewModels */ = {
 			isa = PBXGroup;
 			children = (
+				318ABEFC2AA20D0200386BA5 /* ChartModel.swift */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				318ABEE22A9F9BBD00386BA5 /* addFoodView.swift */,
 				318ABEE62A9FADDB00386BA5 /* EditFoodView.swift */,
 				318ABEF82AA0AC3000386BA5 /* ChartView.swift */,
+				318ABEFE2AA20F5700386BA5 /* HealthDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,9 +289,11 @@
 				318ABEF12AA096CF00386BA5 /* Activity.swift in Sources */,
 				318ABEEC2A9FC8A900386BA5 /* AuthManager.swift in Sources */,
 				31EFB5632A83B1C00055885E /* File.swift in Sources */,
+				318ABEFF2AA20F5700386BA5 /* HealthDetailView.swift in Sources */,
 				31EFB56F2A83BA7D0055885E /* OnBoardingView.swift in Sources */,
 				318ABEF32AA0983200386BA5 /* HealthStats.swift in Sources */,
 				31EFB56D2A83BA2D0055885E /* StartView.swift in Sources */,
+				318ABEFD2AA20D0200386BA5 /* ChartModel.swift in Sources */,
 				3114891E2A9F967D00783559 /* FoodModel.xcdatamodeld in Sources */,
 				311489202A9F97EA00783559 /* FoodDataController.swift in Sources */,
 				318DABCD2A7BA9D500D609C7 /* SplashScreen.swift in Sources */,
