@@ -42,7 +42,7 @@ struct CardView: View {
       }
       .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
       .background(LinearGradient(gradient: Gradient(colors: gym.gradientColors), startPoint: .top, endPoint: .bottom))
-      .cornerRadius(20)
+      
       .ignoresSafeArea()
     }
 }

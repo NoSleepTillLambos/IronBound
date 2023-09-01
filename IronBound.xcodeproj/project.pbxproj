@@ -16,6 +16,13 @@
 		318ABEE32A9F9BBD00386BA5 /* addFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEE22A9F9BBD00386BA5 /* addFoodView.swift */; };
 		318ABEE52A9F9DD000386BA5 /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEE42A9F9DD000386BA5 /* TimeFormatter.swift */; };
 		318ABEE72A9FADDB00386BA5 /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEE62A9FADDB00386BA5 /* EditFoodView.swift */; };
+		318ABEEA2A9FBF4100386BA5 /* BioAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEE92A9FBF4100386BA5 /* BioAuthView.swift */; };
+		318ABEEC2A9FC8A900386BA5 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEEB2A9FC8A900386BA5 /* AuthManager.swift */; };
+		318ABEF12AA096CF00386BA5 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEF02AA096CF00386BA5 /* Activity.swift */; };
+		318ABEF32AA0983200386BA5 /* HealthStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEF22AA0983200386BA5 /* HealthStats.swift */; };
+		318ABEF52AA098BD00386BA5 /* HKREPO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEF42AA098BD00386BA5 /* HKREPO.swift */; };
+		318ABEF72AA09EBE00386BA5 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEF62AA09EBE00386BA5 /* DateExtension.swift */; };
+		318ABEF92AA0AC3000386BA5 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318ABEF82AA0AC3000386BA5 /* ChartView.swift */; };
 		318DABBE2A7BA61500D609C7 /* IronBoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318DABBD2A7BA61500D609C7 /* IronBoundApp.swift */; };
 		318DABC02A7BA61500D609C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318DABBF2A7BA61500D609C7 /* ContentView.swift */; };
 		318DABC22A7BA61D00D609C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318DABC12A7BA61D00D609C7 /* Assets.xcassets */; };
@@ -26,7 +33,6 @@
 		31EFB56B2A83B9DF0055885E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB56A2A83B9DF0055885E /* CardView.swift */; };
 		31EFB56D2A83BA2D0055885E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB56C2A83BA2D0055885E /* StartView.swift */; };
 		31EFB56F2A83BA7D0055885E /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB56E2A83BA7D0055885E /* OnBoardingView.swift */; };
-		31EFB5712A84C7AB0055885E /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB5702A84C7AA0055885E /* LoginScreen.swift */; };
 		31EFB5732A84D01F0055885E /* HealthStoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB5722A84D01F0055885E /* HealthStoreClass.swift */; };
 		31EFB5752A85016C0055885E /* StatisticsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EFB5742A85016C0055885E /* StatisticsPage.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +48,13 @@
 		318ABEE22A9F9BBD00386BA5 /* addFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addFoodView.swift; sourceTree = "<group>"; };
 		318ABEE42A9F9DD000386BA5 /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
 		318ABEE62A9FADDB00386BA5 /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
+		318ABEE92A9FBF4100386BA5 /* BioAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuthView.swift; sourceTree = "<group>"; };
+		318ABEEB2A9FC8A900386BA5 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		318ABEF02AA096CF00386BA5 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		318ABEF22AA0983200386BA5 /* HealthStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStats.swift; sourceTree = "<group>"; };
+		318ABEF42AA098BD00386BA5 /* HKREPO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKREPO.swift; sourceTree = "<group>"; };
+		318ABEF62AA09EBE00386BA5 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		318ABEF82AA0AC3000386BA5 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		318DABBA2A7BA61500D609C7 /* IronBound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronBound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318DABBD2A7BA61500D609C7 /* IronBoundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronBoundApp.swift; sourceTree = "<group>"; };
 		318DABBF2A7BA61500D609C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,7 +67,6 @@
 		31EFB56A2A83B9DF0055885E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		31EFB56C2A83BA2D0055885E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		31EFB56E2A83BA7D0055885E /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
-		31EFB5702A84C7AA0055885E /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		31EFB5722A84D01F0055885E /* HealthStoreClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreClass.swift; sourceTree = "<group>"; };
 		31EFB5742A85016C0055885E /* StatisticsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,10 +86,34 @@
 			isa = PBXGroup;
 			children = (
 				31733A6A2A7BDCFA00318D0E /* workoutsScreen.swift */,
-				31EFB5702A84C7AA0055885E /* LoginScreen.swift */,
 				31EFB5742A85016C0055885E /* StatisticsPage.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		318ABEE82A9FBF3100386BA5 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				318ABEE92A9FBF4100386BA5 /* BioAuthView.swift */,
+				318ABEEB2A9FC8A900386BA5 /* AuthManager.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		318ABEED2AA094E900386BA5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				318ABEF42AA098BD00386BA5 /* HKREPO.swift */,
+				318ABEF62AA09EBE00386BA5 /* DateExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		318ABEEF2AA0956000386BA5 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModels;
 			sourceTree = "<group>";
 		};
 		318DABB12A7BA61500D609C7 = {
@@ -99,6 +135,9 @@
 		318DABBC2A7BA61500D609C7 /* IronBound */ = {
 			isa = PBXGroup;
 			children = (
+				318ABEEF2AA0956000386BA5 /* viewModels */,
+				318ABEED2AA094E900386BA5 /* Helpers */,
+				318ABEE82A9FBF3100386BA5 /* Auth */,
 				31EFB5692A83B9CC0055885E /* Views */,
 				31EFB5642A83B3900055885E /* Data */,
 				31EFB5612A83B19B0055885E /* Models */,
@@ -129,6 +168,8 @@
 			children = (
 				31EFB5622A83B1C00055885E /* File.swift */,
 				316C77CB2A8D025F003390E2 /* Steps.swift */,
+				318ABEF02AA096CF00386BA5 /* Activity.swift */,
+				318ABEF22AA0983200386BA5 /* HealthStats.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,6 +194,7 @@
 				316C77CD2A8DFB72003390E2 /* StepGraph.swift */,
 				318ABEE22A9F9BBD00386BA5 /* addFoodView.swift */,
 				318ABEE62A9FADDB00386BA5 /* EditFoodView.swift */,
+				318ABEF82AA0AC3000386BA5 /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,15 +271,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				316C77CC2A8D025F003390E2 /* Steps.swift in Sources */,
+				318ABEF72AA09EBE00386BA5 /* DateExtension.swift in Sources */,
 				318ABEE52A9F9DD000386BA5 /* TimeFormatter.swift in Sources */,
 				31EFB56B2A83B9DF0055885E /* CardView.swift in Sources */,
 				316C77CE2A8DFB72003390E2 /* StepGraph.swift in Sources */,
 				31EFB5682A83B4240055885E /* onboardingData.swift in Sources */,
 				31EFB5732A84D01F0055885E /* HealthStoreClass.swift in Sources */,
 				318ABEE32A9F9BBD00386BA5 /* addFoodView.swift in Sources */,
+				318ABEEA2A9FBF4100386BA5 /* BioAuthView.swift in Sources */,
 				318ABEE72A9FADDB00386BA5 /* EditFoodView.swift in Sources */,
+				318ABEF12AA096CF00386BA5 /* Activity.swift in Sources */,
+				318ABEEC2A9FC8A900386BA5 /* AuthManager.swift in Sources */,
 				31EFB5632A83B1C00055885E /* File.swift in Sources */,
 				31EFB56F2A83BA7D0055885E /* OnBoardingView.swift in Sources */,
+				318ABEF32AA0983200386BA5 /* HealthStats.swift in Sources */,
 				31EFB56D2A83BA2D0055885E /* StartView.swift in Sources */,
 				3114891E2A9F967D00783559 /* FoodModel.xcdatamodeld in Sources */,
 				311489202A9F97EA00783559 /* FoodDataController.swift in Sources */,
@@ -245,7 +292,8 @@
 				31733A6B2A7BDCFA00318D0E /* workoutsScreen.swift in Sources */,
 				318DABC02A7BA61500D609C7 /* ContentView.swift in Sources */,
 				318DABBE2A7BA61500D609C7 /* IronBoundApp.swift in Sources */,
-				31EFB5712A84C7AB0055885E /* LoginScreen.swift in Sources */,
+				318ABEF52AA098BD00386BA5 /* HKREPO.swift in Sources */,
+				318ABEF92AA0AC3000386BA5 /* ChartView.swift in Sources */,
 				31EFB5752A85016C0055885E /* StatisticsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +424,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IronBound/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This app requires FaceID";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "App requires sharing and access of health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "App requires sharing and access of health data";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -415,6 +466,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IronBound/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This app requires FaceID";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "App requires sharing and access of health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "App requires sharing and access of health data";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

@@ -6,13 +6,48 @@
 import SwiftUI
 
 struct StatisticsPage: View {
+    
+    private var repository =  HKREPO()
+    
+    var items: [GridItem] {
+        Array(repeating: .init(.adaptive(minimum: 120)), count: 2)
+    }
+    
+    
     var body: some View {
-        ZStack {
-            Color("46748B")
-            Image(systemName: "trophy.circle")
-                .foregroundColor(Color.white)
-                .font(.system(size: 100))
+        NavigationView {
+            
+            ZStack {
+                
+                ScrollView(.vertical, showsIndicators: false) {
+                    
+                    LazyVGrid(columns: items, spacing: 2) {
+                        ForEach(Activity.allActivities()) {
+                            Activity in
+                            NavigationLink(destination: Text(Activity.name)) {
+                                VStack {
+                                    Text(Activity.image)
+                                        .frame(width: 50, height: 50)
+                                        .background(RoundedRectangle(cornerRadius: 16).fill(Color("46748B").opacity(0.5)))
+                                    
+                                    Text(Activity.name).foregroundColor(Color.white)
+                                }
+                                .padding()
+                                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                                .background(RoundedRectangle(cornerRadius: 16).fill(Color("46748B").opacity(0.5)))
+                            }.buttonStyle(PlainButtonStyle())
+                        }
+                    }.padding()
+                }
+                Text("Hey")
+            }.navigationTitle("Health Statistics")
+        }.onAppear {
+            repository.requestAuth {
+                success in
+                print("Auth Success \(success)")
+            }
         }
+        
     }
 }
 
