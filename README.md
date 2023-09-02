@@ -15,7 +15,7 @@
 <p align="center">
 
   <a href="https://github.com/username/projectname">
-    <img src="IronBound/Assets.xcassets/AppIcon.imageset/smallLogo-4.png" alt="Logo" height="100" widht="100" >
+    <img src="IronBound/Assets.xcassets/AppIcon.appiconset/iphone180.png" alt="Logo" height="100" widht="100" >
   </a>
   
   <h3 align="center">IRONDBOUND</h3>
@@ -74,9 +74,8 @@ This project was developed for the purpose of a varsity project, it incorporates
 
 ### Built With
 
-* [Hilt](https://dagger.dev/hilt/)
-* [Firebase](https://firebase.google.com/)
-* [Android Studio](https://developer.android.com/studio)
+* [Xcode](https://dagger.dev/hilt/)
+* [HealthKit](https://firebase.google.com/)
 
 <!-- GETTING STARTED -->
 <!-- Make sure to add appropriate information about what prerequesite technologies the user would need and also the steps to install your project on their own mashines -->
@@ -95,12 +94,12 @@ Here are a couple of ways to clone this repo:
 
 1. Software </br>
 `Android Studio` -> `File` -> `New` -> `From Version Control` -> `Git`</br>
-Enter `[https://github.com/username/projectname.git](https://github.com/NoSleepTillLambos/ChitChat)` into the URL field and press the `Clone` button.
+Enter `(https://github.com/NoSleepTillLambos/IronBound)` into the URL field and press the `Clone` button.
 
 2. Clone Repository </br>
 Run the following in the command-line to clone the project:
    ```sh
-   git clone https://github.com/username/projectname.git
+   git clone https://github.com/NoSleepTillLambos/IronBound
    ```
     Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
 
@@ -110,7 +109,7 @@ Run the following in the command-line to install all the required dependencies:
    npm install
    ```
 
-4. Get a free API Key at [[https://example.com](https://example.com)](https://github.com/NoSleepTillLambos/ChitChat) and enter it in the `config.js` file:
+4. Get a free API Key at [https://github.com/NoSleepTillLambos/IronBound] and enter it in the `config.js` file:
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
@@ -123,7 +122,7 @@ Run the following in the command-line to install all the required dependencies:
 ![image2][image2]
 ### Feature 1
 
-Users can create an account seperate from others and create personal experiences with other users of the app 
+Users can create track calories and ensure they're staying below their limits
 
 ![image3][image3]
 ### Feature 2
@@ -159,28 +158,28 @@ The `Development Process` is the technical implementations and functionality don
 
 * Wireframing and concept ideastion
 * Developing the user flow, Implementing UI such as onboarding screens, splash screens and views for the app
+* Core data and calorie count
+* Fetching and displaying steps by way of graphs
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
-* A highlight of mine was being able to access data from the system and visualieze it using graphs and models<br/>
-when i got it working!
-
+* Fetching and displaying steps and calories was my bigges highlight, it took me so long to work it out so when it finally came together it was such a relief
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-* The biggest bug was with Firebase and android studio, i found it a little difficult regarding connection and working with the database 
-* The Android Emulator has always been the biggest struggle for me, it slows down my laptop astronomically, luckily i was able to use a friends mac whcich solved the issue
+* The biggest challenge was fetching data from the phone, i spent a lot of time trying to use my physical device as a emulator when i could of simply used the health app built into the phone within the simulator to create the data.
 
 #### Feedback from Reviews
 
 `Peer Reviews` were conducted by my fellow students and lecturer. The following feedback I found useful:
 
-* I started off using the old xml files becuase they made more sense to me but after spending some time with Jetpack compose it proved to be so much simpler than i expected
+* I got some very positive feedback from users regarding the core data and calorie tracking implementation
   
 ## Future Implementation
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-* In the future i would like to add the ability to send images 
-* Create statuses and be able to comment on them 
+* In the future i would love to have an option where users can share there progress with others within the app and create a community
+* Improve and clean UI
+* create more tracking with larger sets of data
 
 <!-- MOCKUPS -->
 ## Final Outcome
