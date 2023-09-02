@@ -40,25 +40,25 @@ struct StatisticsPage: View {
                             }.buttonStyle(PlainButtonStyle())
                         }
                     }.padding()
-                    VStack(alignment: .center, spacing: 10) {
+                    VStack(alignment: .center, spacing: 5) {
                             
                                 Text("Keep Fit")
                                     .multilineTextAlignment(.center)
                                     .font(.system(size: 18.0))
                                     .foregroundColor(.white)
                         
-                            }.frame(width: 320,height: 250, alignment: .center) //<-- Here
+                            }.frame(width: 320,height: 220, alignment: .center) //<-- Here
                         .padding(12)
                         .cornerRadius(20)
                         .background(Image("gym-home").resizable().scaledToFit().overlay(Color.gray.opacity(0.4)).cornerRadius(16).frame(width: 330.0, alignment: .top))
-                    VStack(alignment: .center, spacing: 10) {
+                    VStack(alignment: .center, spacing: 5) {
                             
                                 Text("Track")
                                     .multilineTextAlignment(.center)
                                     .font(.system(size: 18.0))
                                     .foregroundColor(.white)
                         
-                            }.frame(width: 320,height: 250, alignment: .center) //<-- Here
+                            }.frame(width: 320,height: 220, alignment: .center) //<-- Here
                         .padding(12)
                         .cornerRadius(20)
                         .background(Image("track").resizable().scaledToFit().overlay(Color.gray.opacity(0.4)).cornerRadius(16).frame(width: 380.0, alignment: .top))
