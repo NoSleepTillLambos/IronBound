@@ -119,20 +119,17 @@ Run the following in the command-line to install all the required dependencies:
 <!-- You can add the links to all of your imagery at the bottom of the file as references -->
 ## Features and Functionality
 
-![image2][image2]
 ### Feature 1
+![image2][image2]
+- Tracking total calories after permission has been given for the app to access the users private and specific health data
 
-Tracking total calories after permission has been given for the app to access the users private and specific health data
-
-![image3][image3]
 ### Feature 2
+![image3][image3]
+- Launch screen
 
-Users can create chats and talk to friends and loved ones through the use of a phone number
-
-![image4][image4]
 ### Feature 3
-
-Users are able to type and send messages live, allowign for real time chat and quickfire connection to the database
+![image4][image4]
+- Utilising Apple's CoreData, users can track and managed their calories for the day through the use of an intuitive UI
 
 ![image5][image5]
 
@@ -227,8 +224,8 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- LICENSE -->
 ## Contact
 
-* **Liam Wedge** - [liamwedge00l@gmail.com](mailto:email@address) - [@instagram_handle](https://www.instagram.com/liam.portfolio/) 
-* **Project Link** - https://github.com/NpSleepTillLambos/ChitChat
+* **Liam Wedge** - [liamwedge00l@gmail.com](mailto:email@address)
+* **Project Link** - [https://github.com/NoSleepTillLambos/IronBound]
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -241,8 +238,8 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- MARKDOWN LINKS & IMAGES -->
 [image1]: IronBound/Assets.xcassets/homePage.png
 [image2]: IronBound/Assets.xcassets/mockup2.png
-[image3]: app/src/main/res/drawable/Screenshot_20230621_223033.png
-[image4]: app/src/main/res/drawable/Screenshot_20230621_223053.png
+[image3]: IronBound/Assets.xcassets/launch.png
+[image4]: IronBound/Assets.xcassets/calories.png
 [image8]: IronBound/Assets.xcassets/IMG_8510.jpg
 [image9]: IronBound/Assets.xcassets/IMG_8509.jpg
 [image10]: IronBound/Assets.xcassets/IMG_8508.jpg
