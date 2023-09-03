@@ -164,7 +164,8 @@ The `Development Process` is the technical implementations and functionality don
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
 * The biggest challenge was fetching data from the phone, i spent a lot of time trying to use my physical device as a emulator when i could of simply used the health app built into the phone within the simulator to create the data.
-* Another big challenge was working with screens and displaying them with or without the correct authentication which i achieved through FaceID. 
+* Another big challenge was working with screens and displaying them with or without the correct authentication which i achieved through FaceID.
+* Creating and displaying the launch screen correctly proved to be very tedious as there were a lot of moving parts with regards to view protection. Implemented using storyboard
 
 #### Feedback from Reviews
 
