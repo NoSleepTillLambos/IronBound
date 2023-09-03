@@ -93,7 +93,7 @@ Ensure that you have the latest version of [Software](path/to/where/they/can/dow
 Here are a couple of ways to clone this repo:
 
 1. Software </br>
-`Android Studio` -> `File` -> `New` -> `From Version Control` -> `Git`</br>
+`Xcode` -> `File` -> `New` -> `From Version Control` -> `Git`</br>
 Enter `(https://github.com/NoSleepTillLambos/IronBound)` into the URL field and press the `Clone` button.
 
 2. Clone Repository </br>
@@ -180,7 +180,7 @@ The `Development Process` is the technical implementations and functionality don
 
 * In the future i would love to have an option where users can share there progress with others within the app and create a community
 * Improve and clean UI
-* create more tracking with larger sets of data
+* Create more tracking with larger sets of data 
 
 <!-- MOCKUPS -->
 ## Final Outcome
@@ -233,10 +233,9 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 <!-- all resources that you used and Acknowledgements here -->
-* [Hilt](https://dagger.dev/hilt/)
-* [Dagger](https://dagger.dev/hilt/)
-* [Android Studio](https://developer.android.com/studio?gclid=CjwKCAjwv8qkBhAnEiwAkY-ahgEAbMyYvSFARfS4rPjVIaElj6u95c6p2qIG-XUJ3rqfL8gj6zo6zBoCzegQAvD_BwE&gclsrc=aw.ds)
-* [Firebase](https://firebase.google.com/)
+* [XCode](https://developer.apple.com/xcode/)
+* [CoreData](https://developer.apple.com/documentation/coredata/)
+* [FreePik](https://www.freepik.com/search?format=search&query=fitness%20tracking%20illustrated)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
