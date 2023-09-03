@@ -70,7 +70,7 @@
 
 ### Project Description
 
-This project was developed for the purpose of a varsity project, it incorporates the simplicity and beauty of jetpack compose, Firebase and Hilt
+This project was developed as a way for users to track and manage calories and steps in order to get them on the right track in their fitness journey. 
 
 ### Built With
 
@@ -122,7 +122,7 @@ Run the following in the command-line to install all the required dependencies:
 ![image2][image2]
 ### Feature 1
 
-Users can create track calories and ensure they're staying below their limits
+Tracking total calories after permission has been given for the app to access the users private and specific health data
 
 ![image3][image3]
 ### Feature 2
@@ -239,17 +239,15 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[image1]: app/src/main/res/drawable/chats.png
-[image2]: app/src/main/res/drawable/Screenshot_20230621_222816.png
+[image1]: IronBound/Assets.xcassets/homePage.png
+[image2]: IronBound/Assets.xcassets/mockup2.png
 [image3]: app/src/main/res/drawable/Screenshot_20230621_223033.png
 [image4]: app/src/main/res/drawable/Screenshot_20230621_223053.png
-[image5]: /path/to/image.png
-[image6]: /path/to/image.png
-[image7]: /path/to/image.png
 [image8]: IronBound/Assets.xcassets/IMG_8510.jpg
 [image9]: IronBound/Assets.xcassets/IMG_8509.jpg
 [image10]: IronBound/Assets.xcassets/IMG_8508.jpg
-
+[image11]: IronBound/Assets.xcassets/loginScreen.png
+[image12]: IronBound/Assets.xcassets/onboarding.png
 
 <!-- Refer to https://shields.io/ for more information and options about the shield links at the top of the ReadMe file -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
